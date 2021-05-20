@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+header, main, section {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px rgb(43, 42, 42);
+}
+
+h1, h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+p {
+    font-weight: lighter;
+    padding-bottom: 45px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+ol {
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;   
+    width: 90vw;
+}
+
+.left-nav {
+    justify-content: flex-start;
+}
+
+.right-nav {
+    justify-content: flex-end;
+}
+
+li {
+    padding: 15px;
+}
+
+main, div{
+    padding: 10px;
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+    width: 455px;
+}
+
+section {
+    background-image: url("https://www.spacex.com/static/images/crew-2/docking/Homepage_Dragon_Docking_Desktop.webp");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
