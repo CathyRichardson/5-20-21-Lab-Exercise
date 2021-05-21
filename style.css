@@ -54,7 +54,7 @@ ul {
     width: 80vw;
     }
 
-li img {
+.menu-icon {
     height: 25px;
     width: 25px;
     margin-top: -5px;
@@ -65,11 +65,10 @@ li img {
     flex: 1;
 }
 
-.logo {
-    font-size: 35px;
-    font-weight: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: -10px;
+.logoimg {
+    height: 50px;
+    width: 80x;
+    margin-top: -20px;
 }
 
 .left-nav {
