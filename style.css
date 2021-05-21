@@ -9,7 +9,7 @@ body {
 
 header {
     background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
-    background-color: #cccccc;
+    background-color: #303030;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@ header {
 nav {
     position: fixed;
     z-index: 1;
+    margin: 20px 50px 20px 150px; 
 }
 
 header, main, section {
@@ -30,6 +31,7 @@ header, main, section {
 h1, h2 {
     font-size: 40px;
     margin: 15px 0;
+    text-transform: uppercase;
 }
 
 p {
@@ -40,14 +42,29 @@ p {
 h4 {
     font-size: 20px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
-ol {
+ul {
     list-style: none;
     font-size: 13px;
     font-weight: bold;
+    text-transform: uppercase;
     display: flex;   
-    width: 90vw;
+    width: 80vw;
+     
+}
+
+.right-nav {
+    text-align: right;
+    flex: 1;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10px;
 }
 
 .left-nav {
